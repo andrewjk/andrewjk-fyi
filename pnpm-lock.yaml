@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@redraft/adapter-cloudflare':
-        specifier: ^0.0.1
-        version: 0.0.1(@libsql/client@0.15.4)
+        specifier: ^0.0.2
+        version: 0.0.2(@libsql/client@0.15.4)
       '@redraft/site':
-        specifier: ^0.0.3
-        version: 0.0.3(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)(vite@6.3.3(@types/node@22.15.3))
+        specifier: ^0.0.4
+        version: 0.0.4(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)(vite@6.3.3(@types/node@22.15.3))
       '@torpor/adapter-cloudflare':
         specifier: ^0.0.10
         version: 0.0.10(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)
@@ -388,8 +388,8 @@ packages:
   '@neon-rs/load@0.0.4':
     resolution: {integrity: sha512-kTPhdZyTQxB+2wpiRcFWrDcejc4JI6tkPuS7UZCG4l6Zvc5kU/gGQ/ozvHTh1XR5tS+UlfAfGuPajjzQjCiHCw==}
 
-  '@redraft/adapter-cloudflare@0.0.1':
-    resolution: {integrity: sha512-4VfZWdP19kali2m1r3PnoOKWhRApX+3nj8tWfVlBB7zEcLxNaiLyltMK+jnI/KmTePrDuj0aKDhIYJYEQ3dPng==}
+  '@redraft/adapter-cloudflare@0.0.2':
+    resolution: {integrity: sha512-tU3rRMjzmmd3Nvhvp7DU1VAYb1Y0LRyx58fauve7X+zKh3gfiTtzLzgXhb/ouvmqpgeRRF7+hQAtRNaEt86whw==}
 
   '@redraft/adapter-core@0.0.1':
     resolution: {integrity: sha512-TU9Jj0p+CsIEn5KQB3uJXwZWzWHXTZ3tGufBbhuMqlI+Vf/mMsf/KjoiNLLJl8hlxZF4kOqOPDa0D4dd9bCLtQ==}
@@ -397,8 +397,8 @@ packages:
   '@redraft/adapter-node@0.0.1':
     resolution: {integrity: sha512-eZ+xeRPDCxpyUV44iljXDPjQRPYmVB7CG+T7bPdeTxnN7LQK06h+sBPKStLPHj61nfGvzhF5pa40Xa1J8q+88g==}
 
-  '@redraft/site@0.0.3':
-    resolution: {integrity: sha512-LCFRLoQ0g30SpcIFP7X8L5xqIZmpwbK9ajyoWNLyX13srtrfTOgeoROk9n6Yo9YpTOMBIiJsYiLNwBK4/TkfjQ==}
+  '@redraft/site@0.0.4':
+    resolution: {integrity: sha512-8sKTh/E4foY7Q2OvPG9HEeTlZX33iSkCvJp2MsG7UWka8IAq14bO7vU9EGk4gVx5umRbIdyWMppx+eMaRyhLJQ==}
 
   '@rollup/rollup-android-arm-eabi@4.40.1':
     resolution: {integrity: sha512-kxz0YeeCrRUHz3zyqvd7n+TVRlNyTifBsmnmNPtk3hQURUyG9eAB+usz6DAwagMusjx/zb3AjvDUvhFGDAexGw==}
@@ -1808,7 +1808,7 @@ snapshots:
 
   '@neon-rs/load@0.0.4': {}
 
-  '@redraft/adapter-cloudflare@0.0.1(@libsql/client@0.15.4)':
+  '@redraft/adapter-cloudflare@0.0.2(@libsql/client@0.15.4)':
     dependencies:
       '@redraft/adapter-core': 0.0.1(@libsql/client@0.15.4)
       drizzle-orm: 0.43.1(@libsql/client@0.15.4)
@@ -1909,7 +1909,7 @@ snapshots:
       - sql.js
       - sqlite3
 
-  '@redraft/site@0.0.3(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)(vite@6.3.3(@types/node@22.15.3))':
+  '@redraft/site@0.0.4(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)(vite@6.3.3(@types/node@22.15.3))':
     dependencies:
       '@aws-sdk/client-s3': 3.798.0
       '@libsql/client': 0.15.4
