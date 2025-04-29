@@ -9,4 +9,7 @@ site.adapter = siteAdapter;
 
 await defineSite(site, socialAdapter);
 
+// HACK:
+globalThis.adapter = socialAdapter;
+
 export default site;
