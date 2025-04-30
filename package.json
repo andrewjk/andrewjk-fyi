@@ -1,13 +1,16 @@
 {
   "name": "andrewjk-social",
   "version": "0.0.1",
-  "description": "A Redraft site!",
+  "description": "A Redraft site!!",
   "type": "module",
   "scripts": {
     "dev": "tb --dev",
     "build": "tsc --noEmit && tb --build",
     "preview": "tb --preview",
-    "check": "tsc --noEmit"
+    "check": "tsc --noEmit",
+    "db:list": "wrangler d1 migrations list DB --remote",
+    "db:apply": "wrangler d1 migrations apply DB --remote",
+    "tail": "wrangler pages deployment tail"
   },
   "keywords": [],
   "author": "",

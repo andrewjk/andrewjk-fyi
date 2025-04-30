@@ -13,7 +13,7 @@ importers:
         version: 0.0.2(@libsql/client@0.15.4)
       '@redraft/site':
         specifier: ^0.0.6
-        version: 0.0.6(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)(vite@6.3.3(@types/node@22.15.3))
+        version: 0.0.6(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)(vite@6.3.4(@types/node@22.15.3))
       '@torpor/adapter-cloudflare':
         specifier: ^0.0.12
         version: 0.0.12(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)
@@ -1150,8 +1150,8 @@ packages:
       vite:
         optional: true
 
-  vite@6.3.3:
-    resolution: {integrity: sha512-5nXH+QsELbFKhsEfWLkHrvgRpTdGJzqOZ+utSdmPTvwHmvU6ITTm3xx+mRusihkcI8GeC7lCDyn3kDtiki9scw==}
+  vite@6.3.4:
+    resolution: {integrity: sha512-BiReIiMS2fyFqbqNT/Qqt4CVITDU9M9vE+DKcVAsB+ZV0wvTKd+3hMbkpxz1b+NmEDMegpVbisKiAZOnvO92Sw==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -1905,7 +1905,7 @@ snapshots:
       - sql.js
       - sqlite3
 
-  '@redraft/site@0.0.6(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)(vite@6.3.3(@types/node@22.15.3))':
+  '@redraft/site@0.0.6(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)(vite@6.3.4(@types/node@22.15.3))':
     dependencies:
       '@aws-sdk/client-s3': 3.799.0
       '@libsql/client': 0.15.4
@@ -1922,7 +1922,7 @@ snapshots:
       ky: 1.8.1
       micromark: 4.0.2
       micromark-extension-gfm: 3.0.0
-      phosphor-torpor: 1.0.1(@torpor/view@0.0.11)(vite@6.3.3(@types/node@22.15.3))
+      phosphor-torpor: 1.0.1(@torpor/view@0.0.11)(vite@6.3.4(@types/node@22.15.3))
       valibot: 1.0.0(typescript@5.8.3)
     transitivePeerDependencies:
       - '@aws-sdk/client-rds-data'
@@ -2369,7 +2369,7 @@ snapshots:
   '@torpor/adapter-cloudflare@0.0.12(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)':
     dependencies:
       '@torpor/build': 0.1.12(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)
-      vite: 6.3.3(@types/node@22.15.3)
+      vite: 6.3.4(@types/node@22.15.3)
     transitivePeerDependencies:
       - '@nuxt/kit'
       - '@nuxt/schema'
@@ -2393,7 +2393,7 @@ snapshots:
   '@torpor/adapter-node@0.0.10(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)':
     dependencies:
       '@torpor/build': 0.1.12(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)
-      vite: 6.3.3(@types/node@22.15.3)
+      vite: 6.3.4(@types/node@22.15.3)
     transitivePeerDependencies:
       - '@nuxt/kit'
       - '@nuxt/schema'
@@ -2416,12 +2416,12 @@ snapshots:
 
   '@torpor/build@0.1.12(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)':
     dependencies:
-      '@torpor/unplugin': 0.1.5(esbuild@0.25.3)(rollup@4.40.1)(vite@6.3.3(@types/node@22.15.3))
+      '@torpor/unplugin': 0.1.5(esbuild@0.25.3)(rollup@4.40.1)(vite@6.3.4(@types/node@22.15.3))
       '@torpor/view': 0.0.11
       cookie: 1.0.2
       dotenv: 16.5.0
-      vite: 6.3.3(@types/node@22.15.3)
-      vite-tsconfig-paths: 5.1.4(typescript@5.8.3)(vite@6.3.3(@types/node@22.15.3))
+      vite: 6.3.4(@types/node@22.15.3)
+      vite-tsconfig-paths: 5.1.4(typescript@5.8.3)(vite@6.3.4(@types/node@22.15.3))
     transitivePeerDependencies:
       - '@nuxt/kit'
       - '@nuxt/schema'
@@ -2442,14 +2442,14 @@ snapshots:
       - webpack
       - yaml
 
-  '@torpor/unplugin@0.1.5(esbuild@0.25.3)(rollup@4.40.1)(vite@6.3.3(@types/node@22.15.3))':
+  '@torpor/unplugin@0.1.5(esbuild@0.25.3)(rollup@4.40.1)(vite@6.3.4(@types/node@22.15.3))':
     dependencies:
       '@torpor/view': 0.0.11
       unplugin: 2.3.2
     optionalDependencies:
       esbuild: 0.25.3
       rollup: 4.40.1
-      vite: 6.3.3(@types/node@22.15.3)
+      vite: 6.3.4(@types/node@22.15.3)
 
   '@torpor/view@0.0.11': {}
 
@@ -2787,13 +2787,13 @@ snapshots:
       fetch-blob: 3.2.0
       formdata-polyfill: 4.0.10
 
-  phosphor-torpor@1.0.1(@torpor/view@0.0.11)(vite@6.3.3(@types/node@22.15.3)):
+  phosphor-torpor@1.0.1(@torpor/view@0.0.11)(vite@6.3.4(@types/node@22.15.3)):
     dependencies:
       '@torpor/view': 0.0.11
       estree-walker: 3.0.3
       magic-string: 0.30.17
     optionalDependencies:
-      vite: 6.3.3(@types/node@22.15.3)
+      vite: 6.3.4(@types/node@22.15.3)
 
   picocolors@1.1.1: {}
 
@@ -2864,18 +2864,18 @@ snapshots:
     optionalDependencies:
       typescript: 5.8.3
 
-  vite-tsconfig-paths@5.1.4(typescript@5.8.3)(vite@6.3.3(@types/node@22.15.3)):
+  vite-tsconfig-paths@5.1.4(typescript@5.8.3)(vite@6.3.4(@types/node@22.15.3)):
     dependencies:
       debug: 4.4.0
       globrex: 0.1.2
       tsconfck: 3.1.5(typescript@5.8.3)
     optionalDependencies:
-      vite: 6.3.3(@types/node@22.15.3)
+      vite: 6.3.4(@types/node@22.15.3)
     transitivePeerDependencies:
       - supports-color
       - typescript
 
-  vite@6.3.3(@types/node@22.15.3):
+  vite@6.3.4(@types/node@22.15.3):
     dependencies:
       esbuild: 0.25.3
       fdir: 6.4.4(picomatch@4.0.2)
