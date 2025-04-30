@@ -14,8 +14,8 @@
   "license": "ISC",
   "dependencies": {
     "@redraft/adapter-cloudflare": "^0.0.2",
-    "@redraft/site": "^0.0.4",
-    "@torpor/adapter-cloudflare": "^0.0.10",
+    "@redraft/site": "^0.0.5",
+    "@torpor/adapter-cloudflare": "^0.0.12",
     "@torpor/build": "^0.1.12",
     "dotenv": "^16.5.0"
   },
