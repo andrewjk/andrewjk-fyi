@@ -4,3 +4,9 @@ compatibility_flags = [ "nodejs_compat" ]
 compatibility_date = "2024-09-23"
 
 pages_build_output_dir = "dist/cloudflare"
+
+[[ d1_databases ]]
+binding = "DB"
+database_name = "andrewjk"
+database_id = "0cbda38a-7a52-4495-af70-22d7f8aad2f5"
+migrations_dir = "node_modules/@redraft/site/src/data/migrations"
