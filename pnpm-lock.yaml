@@ -12,8 +12,8 @@ importers:
         specifier: ^0.0.2
         version: 0.0.2(@libsql/client@0.15.4)
       '@redraft/site':
-        specifier: ^0.0.6
-        version: 0.0.6(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)(vite@6.3.4(@types/node@22.15.3))
+        specifier: ^0.0.7
+        version: 0.0.7(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)(vite@6.3.4(@types/node@22.15.3))
       '@torpor/adapter-cloudflare':
         specifier: ^0.0.12
         version: 0.0.12(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)
@@ -397,8 +397,8 @@ packages:
   '@redraft/adapter-node@0.0.1':
     resolution: {integrity: sha512-eZ+xeRPDCxpyUV44iljXDPjQRPYmVB7CG+T7bPdeTxnN7LQK06h+sBPKStLPHj61nfGvzhF5pa40Xa1J8q+88g==}
 
-  '@redraft/site@0.0.6':
-    resolution: {integrity: sha512-+Aj5zNNM5V6vLknFGlRApwQlBs2xCzvqPA5ylAvwojydWQDXj6zdH4oiRXHTMMBz/U/0KMMAKuUBq79TPhU1hA==}
+  '@redraft/site@0.0.7':
+    resolution: {integrity: sha512-NDCWMI8HMyC8NDeyCVImY2BV2wLn3zpPwez89UCtTQEiHMsOnQLWXkfC7nVyTW3HERXhgznKKzMjz6eyJlS5OQ==}
 
   '@rollup/rollup-android-arm-eabi@4.40.1':
     resolution: {integrity: sha512-kxz0YeeCrRUHz3zyqvd7n+TVRlNyTifBsmnmNPtk3hQURUyG9eAB+usz6DAwagMusjx/zb3AjvDUvhFGDAexGw==}
@@ -1905,7 +1905,7 @@ snapshots:
       - sql.js
       - sqlite3
 
-  '@redraft/site@0.0.6(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)(vite@6.3.4(@types/node@22.15.3))':
+  '@redraft/site@0.0.7(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)(vite@6.3.4(@types/node@22.15.3))':
     dependencies:
       '@aws-sdk/client-s3': 3.799.0
       '@libsql/client': 0.15.4
