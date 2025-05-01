@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@redraft/adapter-cloudflare':
-        specifier: ^0.0.3
-        version: 0.0.3(@libsql/client@0.15.4)(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)
+        specifier: ^0.0.4
+        version: 0.0.4(@libsql/client@0.15.4)(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)
       '@redraft/site':
         specifier: ^0.0.8
         version: 0.0.8(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)(vite@6.3.4(@types/node@22.15.3))
@@ -23,6 +23,9 @@ importers:
       dotenv:
         specifier: ^16.5.0
         version: 16.5.0
+      drizzle-orm:
+        specifier: ^0.43.1
+        version: 0.43.1(@libsql/client@0.15.4)
     devDependencies:
       typescript:
         specifier: ^5.8.3
@@ -388,8 +391,8 @@ packages:
   '@neon-rs/load@0.0.4':
     resolution: {integrity: sha512-kTPhdZyTQxB+2wpiRcFWrDcejc4JI6tkPuS7UZCG4l6Zvc5kU/gGQ/ozvHTh1XR5tS+UlfAfGuPajjzQjCiHCw==}
 
-  '@redraft/adapter-cloudflare@0.0.3':
-    resolution: {integrity: sha512-04g5Iyx1qUNrvpvPGXvwmkerDPasnfXCs3HGkGbGiiOLgOdSED/POIfQZTsBV21g1p1v7syylvaPzJxkHtlxEw==}
+  '@redraft/adapter-cloudflare@0.0.4':
+    resolution: {integrity: sha512-w1F+TkKUjQ+1AWPCgA5DBZr29+Q/YsorqTC7zGhfRva731y5tAjuXjAXyLVossSYaJUB6xMB0mlxKMKGPbXiuQ==}
 
   '@redraft/adapter-core@0.0.2':
     resolution: {integrity: sha512-ZQnyiz5TKeafzUFyauq3OxD7CKIXx7SjverzckMsF6EcP8gbQBjqx8N0uG6YvCEGnM/DYEI5CuYMXV+WmOBNaw==}
@@ -1804,7 +1807,7 @@ snapshots:
 
   '@neon-rs/load@0.0.4': {}
 
-  '@redraft/adapter-cloudflare@0.0.3(@libsql/client@0.15.4)(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)':
+  '@redraft/adapter-cloudflare@0.0.4(@libsql/client@0.15.4)(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)':
     dependencies:
       '@redraft/adapter-core': 0.0.2(@libsql/client@0.15.4)(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)
       '@torpor/adapter-cloudflare': 0.0.14(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)
