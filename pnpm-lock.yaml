@@ -9,17 +9,17 @@ importers:
   .:
     dependencies:
       '@redraft/adapter-cloudflare':
-        specifier: ^0.0.2
-        version: 0.0.2(@libsql/client@0.15.4)
+        specifier: ^0.0.3
+        version: 0.0.3(@libsql/client@0.15.4)(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)
       '@redraft/site':
-        specifier: ^0.0.7
-        version: 0.0.7(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)(vite@6.3.4(@types/node@22.15.3))
+        specifier: ^0.0.8
+        version: 0.0.8(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)(vite@6.3.4(@types/node@22.15.3))
       '@torpor/adapter-cloudflare':
-        specifier: ^0.0.12
-        version: 0.0.12(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)
+        specifier: ^0.0.14
+        version: 0.0.14(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)
       '@torpor/build':
-        specifier: ^0.1.12
-        version: 0.1.12(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)
+        specifier: ^0.1.13
+        version: 0.1.13(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)
       dotenv:
         specifier: ^16.5.0
         version: 16.5.0
@@ -53,8 +53,8 @@ packages:
   '@aws-crypto/util@5.2.0':
     resolution: {integrity: sha512-4RkU9EsI6ZpBve5fseQlGNUWKMa1RLPQ1dnjnQoe07ldfIzcsGb5hC5W0Dm7u423KWzawlrpbjXBrXCEv9zazQ==}
 
-  '@aws-sdk/client-s3@3.799.0':
-    resolution: {integrity: sha512-v9S5UdMsFjnTmhKKkWcWOE2vJyFUlAHm9utr272x5Lr+1wJMp0ztPyL/9UiABmBqMKzc2mAPosQoGW9ZcdJw4Q==}
+  '@aws-sdk/client-s3@3.800.0':
+    resolution: {integrity: sha512-SE33Y1kbeErd5h7KlmgWs1iJ0kKi+/t9XilI6NPIb5J5TmPKVUT5gf3ywa9ZSaq1x7LiAbICm0IPEz6k0WEBbQ==}
     engines: {node: '>=18.0.0'}
 
   '@aws-sdk/client-sso@3.799.0':
@@ -141,8 +141,8 @@ packages:
     resolution: {integrity: sha512-40iH3LJjrQS3LKUJAl7Wj0bln7RFPEvUYKFxtP8a+oKFDO0F65F52xZxIJbPn6sHkxWDAnZlGgdjZXM3p2g5wQ==}
     engines: {node: '>=18.0.0'}
 
-  '@aws-sdk/signature-v4-multi-region@3.799.0':
-    resolution: {integrity: sha512-zCVugIzNfpBkjFYQFBeGEp6/qYtCH04pyE/X73SMOfBgYPsW+NhTo0JzrKmebGmKVYyxnuo7vT87bSJO2M8EfA==}
+  '@aws-sdk/signature-v4-multi-region@3.800.0':
+    resolution: {integrity: sha512-c71wZuiSUHNFCvcuqOv3jbqP+NquB2YKN4qX90OwYXEqUKn8F8fKJPpjjHjz1eK6qWKtECR4V/NTno2P70Yz/Q==}
     engines: {node: '>=18.0.0'}
 
   '@aws-sdk/token-providers@3.799.0':
@@ -388,17 +388,17 @@ packages:
   '@neon-rs/load@0.0.4':
     resolution: {integrity: sha512-kTPhdZyTQxB+2wpiRcFWrDcejc4JI6tkPuS7UZCG4l6Zvc5kU/gGQ/ozvHTh1XR5tS+UlfAfGuPajjzQjCiHCw==}
 
-  '@redraft/adapter-cloudflare@0.0.2':
-    resolution: {integrity: sha512-tU3rRMjzmmd3Nvhvp7DU1VAYb1Y0LRyx58fauve7X+zKh3gfiTtzLzgXhb/ouvmqpgeRRF7+hQAtRNaEt86whw==}
+  '@redraft/adapter-cloudflare@0.0.3':
+    resolution: {integrity: sha512-04g5Iyx1qUNrvpvPGXvwmkerDPasnfXCs3HGkGbGiiOLgOdSED/POIfQZTsBV21g1p1v7syylvaPzJxkHtlxEw==}
 
-  '@redraft/adapter-core@0.0.1':
-    resolution: {integrity: sha512-TU9Jj0p+CsIEn5KQB3uJXwZWzWHXTZ3tGufBbhuMqlI+Vf/mMsf/KjoiNLLJl8hlxZF4kOqOPDa0D4dd9bCLtQ==}
+  '@redraft/adapter-core@0.0.2':
+    resolution: {integrity: sha512-ZQnyiz5TKeafzUFyauq3OxD7CKIXx7SjverzckMsF6EcP8gbQBjqx8N0uG6YvCEGnM/DYEI5CuYMXV+WmOBNaw==}
 
-  '@redraft/adapter-node@0.0.1':
-    resolution: {integrity: sha512-eZ+xeRPDCxpyUV44iljXDPjQRPYmVB7CG+T7bPdeTxnN7LQK06h+sBPKStLPHj61nfGvzhF5pa40Xa1J8q+88g==}
+  '@redraft/adapter-node@0.0.2':
+    resolution: {integrity: sha512-mg48XQuGd91zceu6gfE64tRlhcy7P/6qrjz/8rlIh0ehKJ0xDw8V6CDqiYmuEBP+urB7mNW1gfCWoyd8mG4Dig==}
 
-  '@redraft/site@0.0.7':
-    resolution: {integrity: sha512-NDCWMI8HMyC8NDeyCVImY2BV2wLn3zpPwez89UCtTQEiHMsOnQLWXkfC7nVyTW3HERXhgznKKzMjz6eyJlS5OQ==}
+  '@redraft/site@0.0.8':
+    resolution: {integrity: sha512-Ze7HvFzcEwZD5TtcgrFkh++HjmxfP1QDEZXW7LIiZYt4NCgI8TYQMwqQXUBekrqicUmjYZ7jXttgLmhBVz1wQA==}
 
   '@rollup/rollup-android-arm-eabi@4.40.1':
     resolution: {integrity: sha512-kxz0YeeCrRUHz3zyqvd7n+TVRlNyTifBsmnmNPtk3hQURUyG9eAB+usz6DAwagMusjx/zb3AjvDUvhFGDAexGw==}
@@ -712,14 +712,14 @@ packages:
     resolution: {integrity: sha512-JtaY3FxmD+te+KSI2FJuEcfNC9T/DGGVf551babM7fAaXhjJUt7oSYurH1Devxd2+BOSUACCgt3buinx4UnmEA==}
     engines: {node: '>=18.0.0'}
 
-  '@torpor/adapter-cloudflare@0.0.12':
-    resolution: {integrity: sha512-t03iNn/8lqUzEtB/LTGk5gRJPQWYMfs/sHZHbcRcZFHCU28SMul8qbZKbQIcEZGVP7iom0yucETraV3T1Jofeg==}
+  '@torpor/adapter-cloudflare@0.0.14':
+    resolution: {integrity: sha512-H/rRAKr+TSpG0jV/dYUh5FfTQUbfwOvocD3+XPkMJqpyEYA40iEDNwc37YtFMpxyuUNsZfZstccUw3maEP8mOw==}
 
-  '@torpor/adapter-node@0.0.10':
-    resolution: {integrity: sha512-yg0R1nHR+makqIKvF5afp/3Y3GVlFNzHau4K0p+yJThSE1zOStvNNZDMve4xMWZYJ9en+0TCBWIEOi8pXZJVYg==}
+  '@torpor/adapter-node@0.0.11':
+    resolution: {integrity: sha512-ATqb60wZBBdRE7uHdsdjpbLIla0nQvPUCTfwD/IU9yGrHJ7UtXltZufQvgH9m5f5zVFu88pxBFqBztYZJp8JdQ==}
 
-  '@torpor/build@0.1.12':
-    resolution: {integrity: sha512-bFFUHVk0UmSVDTtOlghkuYTjMKoLphqXHSRGCejinnLMDtWNhNNlowTW0YSnTQuUOqL57JJjGiH6DFentynEfQ==}
+  '@torpor/build@0.1.13':
+    resolution: {integrity: sha512-g2Zc+ZiiTEuSOlVvlJ2wuccFDplj+2WJV8YOPRUUarK+8g4CY9xG6r/suu3mlQDqgVWx/3jWj7pEbo3zlamoVA==}
     hasBin: true
 
   '@torpor/unplugin@0.1.5':
@@ -1258,7 +1258,7 @@ snapshots:
       '@smithy/util-utf8': 2.3.0
       tslib: 2.8.1
 
-  '@aws-sdk/client-s3@3.799.0':
+  '@aws-sdk/client-s3@3.800.0':
     dependencies:
       '@aws-crypto/sha1-browser': 5.2.0
       '@aws-crypto/sha256-browser': 5.2.0
@@ -1276,7 +1276,7 @@ snapshots:
       '@aws-sdk/middleware-ssec': 3.775.0
       '@aws-sdk/middleware-user-agent': 3.799.0
       '@aws-sdk/region-config-resolver': 3.775.0
-      '@aws-sdk/signature-v4-multi-region': 3.799.0
+      '@aws-sdk/signature-v4-multi-region': 3.800.0
       '@aws-sdk/types': 3.775.0
       '@aws-sdk/util-endpoints': 3.787.0
       '@aws-sdk/util-user-agent-browser': 3.775.0
@@ -1609,7 +1609,7 @@ snapshots:
       '@smithy/util-middleware': 4.0.2
       tslib: 2.8.1
 
-  '@aws-sdk/signature-v4-multi-region@3.799.0':
+  '@aws-sdk/signature-v4-multi-region@3.800.0':
     dependencies:
       '@aws-sdk/middleware-sdk-s3': 3.799.0
       '@aws-sdk/types': 3.775.0
@@ -1804,9 +1804,11 @@ snapshots:
 
   '@neon-rs/load@0.0.4': {}
 
-  '@redraft/adapter-cloudflare@0.0.2(@libsql/client@0.15.4)':
+  '@redraft/adapter-cloudflare@0.0.3(@libsql/client@0.15.4)(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)':
     dependencies:
-      '@redraft/adapter-core': 0.0.1(@libsql/client@0.15.4)
+      '@redraft/adapter-core': 0.0.2(@libsql/client@0.15.4)(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)
+      '@torpor/adapter-cloudflare': 0.0.14(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)
+      '@torpor/build': 0.1.13(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)
       drizzle-orm: 0.43.1(@libsql/client@0.15.4)
     transitivePeerDependencies:
       - '@aws-sdk/client-rds-data'
@@ -1815,31 +1817,50 @@ snapshots:
       - '@libsql/client'
       - '@libsql/client-wasm'
       - '@neondatabase/serverless'
+      - '@nuxt/kit'
+      - '@nuxt/schema'
       - '@op-engineering/op-sqlite'
       - '@opentelemetry/api'
       - '@planetscale/database'
       - '@prisma/client'
       - '@tidbcloud/serverless'
       - '@types/better-sqlite3'
+      - '@types/node'
       - '@types/pg'
       - '@types/sql.js'
       - '@vercel/postgres'
       - '@xata.io/client'
       - better-sqlite3
       - bun-types
+      - esbuild
       - expo-sqlite
       - gel
+      - jiti
       - knex
       - kysely
+      - less
+      - lightningcss
       - mysql2
       - pg
       - postgres
       - prisma
+      - rollup
+      - sass
+      - sass-embedded
       - sql.js
       - sqlite3
+      - stylus
+      - sugarss
+      - supports-color
+      - terser
+      - tsx
+      - typescript
+      - webpack
+      - yaml
 
-  '@redraft/adapter-core@0.0.1(@libsql/client@0.15.4)':
+  '@redraft/adapter-core@0.0.2(@libsql/client@0.15.4)(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)':
     dependencies:
+      '@torpor/build': 0.1.13(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)
       drizzle-orm: 0.43.1(@libsql/client@0.15.4)
     transitivePeerDependencies:
       - '@aws-sdk/client-rds-data'
@@ -1848,32 +1869,52 @@ snapshots:
       - '@libsql/client'
       - '@libsql/client-wasm'
       - '@neondatabase/serverless'
+      - '@nuxt/kit'
+      - '@nuxt/schema'
       - '@op-engineering/op-sqlite'
       - '@opentelemetry/api'
       - '@planetscale/database'
       - '@prisma/client'
       - '@tidbcloud/serverless'
       - '@types/better-sqlite3'
+      - '@types/node'
       - '@types/pg'
       - '@types/sql.js'
       - '@vercel/postgres'
       - '@xata.io/client'
       - better-sqlite3
       - bun-types
+      - esbuild
       - expo-sqlite
       - gel
+      - jiti
       - knex
       - kysely
+      - less
+      - lightningcss
       - mysql2
       - pg
       - postgres
       - prisma
+      - rollup
+      - sass
+      - sass-embedded
       - sql.js
       - sqlite3
+      - stylus
+      - sugarss
+      - supports-color
+      - terser
+      - tsx
+      - typescript
+      - webpack
+      - yaml
 
-  '@redraft/adapter-node@0.0.1(@libsql/client@0.15.4)':
+  '@redraft/adapter-node@0.0.2(@libsql/client@0.15.4)(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)':
     dependencies:
-      '@redraft/adapter-core': 0.0.1(@libsql/client@0.15.4)
+      '@redraft/adapter-core': 0.0.2(@libsql/client@0.15.4)(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)
+      '@torpor/adapter-node': 0.0.11(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)
+      '@torpor/build': 0.1.13(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)
       drizzle-orm: 0.43.1(@libsql/client@0.15.4)
     transitivePeerDependencies:
       - '@aws-sdk/client-rds-data'
@@ -1882,36 +1923,54 @@ snapshots:
       - '@libsql/client'
       - '@libsql/client-wasm'
       - '@neondatabase/serverless'
+      - '@nuxt/kit'
+      - '@nuxt/schema'
       - '@op-engineering/op-sqlite'
       - '@opentelemetry/api'
       - '@planetscale/database'
       - '@prisma/client'
       - '@tidbcloud/serverless'
       - '@types/better-sqlite3'
+      - '@types/node'
       - '@types/pg'
       - '@types/sql.js'
       - '@vercel/postgres'
       - '@xata.io/client'
       - better-sqlite3
       - bun-types
+      - esbuild
       - expo-sqlite
       - gel
+      - jiti
       - knex
       - kysely
+      - less
+      - lightningcss
       - mysql2
       - pg
       - postgres
       - prisma
+      - rollup
+      - sass
+      - sass-embedded
       - sql.js
       - sqlite3
+      - stylus
+      - sugarss
+      - supports-color
+      - terser
+      - tsx
+      - typescript
+      - webpack
+      - yaml
 
-  '@redraft/site@0.0.7(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)(vite@6.3.4(@types/node@22.15.3))':
+  '@redraft/site@0.0.8(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)(vite@6.3.4(@types/node@22.15.3))':
     dependencies:
-      '@aws-sdk/client-s3': 3.799.0
+      '@aws-sdk/client-s3': 3.800.0
       '@libsql/client': 0.15.4
-      '@redraft/adapter-core': 0.0.1(@libsql/client@0.15.4)
-      '@redraft/adapter-node': 0.0.1(@libsql/client@0.15.4)
-      '@torpor/adapter-node': 0.0.10(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)
+      '@redraft/adapter-core': 0.0.2(@libsql/client@0.15.4)(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)
+      '@redraft/adapter-node': 0.0.2(@libsql/client@0.15.4)(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)
+      '@torpor/adapter-node': 0.0.11(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)
       '@torpor/view': 0.0.11
       bcryptjs: 3.0.2
       dotenv: 16.5.0
@@ -2366,9 +2425,9 @@ snapshots:
       '@smithy/types': 4.2.0
       tslib: 2.8.1
 
-  '@torpor/adapter-cloudflare@0.0.12(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)':
+  '@torpor/adapter-cloudflare@0.0.14(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)':
     dependencies:
-      '@torpor/build': 0.1.12(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)
+      '@torpor/build': 0.1.13(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)
       vite: 6.3.4(@types/node@22.15.3)
     transitivePeerDependencies:
       - '@nuxt/kit'
@@ -2390,9 +2449,9 @@ snapshots:
       - webpack
       - yaml
 
-  '@torpor/adapter-node@0.0.10(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)':
+  '@torpor/adapter-node@0.0.11(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)':
     dependencies:
-      '@torpor/build': 0.1.12(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)
+      '@torpor/build': 0.1.13(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)
       vite: 6.3.4(@types/node@22.15.3)
     transitivePeerDependencies:
       - '@nuxt/kit'
@@ -2414,7 +2473,7 @@ snapshots:
       - webpack
       - yaml
 
-  '@torpor/build@0.1.12(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)':
+  '@torpor/build@0.1.13(@types/node@22.15.3)(esbuild@0.25.3)(rollup@4.40.1)(typescript@5.8.3)':
     dependencies:
       '@torpor/unplugin': 0.1.5(esbuild@0.25.3)(rollup@4.40.1)(vite@6.3.4(@types/node@22.15.3))
       '@torpor/view': 0.0.11
