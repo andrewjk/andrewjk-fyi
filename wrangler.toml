@@ -10,3 +10,7 @@ binding = "DB"
 database_name = "andrewjk"
 database_id = "0cbda38a-7a52-4495-af70-22d7f8aad2f5"
 migrations_dir = "node_modules/@redraft/site/src/data/migrations"
+
+[[r2_buckets]]
+binding = "STORAGE"
+bucket_name = "andrewjk"
