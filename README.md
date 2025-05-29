@@ -2,7 +2,7 @@
 
 🚧 WARNING: WORK IN PROGRESS 🚧
 
-This is the source code for my [Redraft](https://github.com/andrewjk/redraft) site at https://andrewjk.fyi, hosted on Cloudflare Pages.
+This is the source code for my [Redraft](https://github.com/andrewjk/redraft) site at https://andrewjk.fyi, hosted on a Cloudflare Worker.
 
 You may find it useful as a reference for setting up your own site.
 
@@ -33,7 +33,7 @@ Optionally customise css, icon and robots.txt in `/src/assets`.
 
 Once you are happy, upload it to your GitHub account.
 
-### Create the Cloudflare Pages site
+### Create the Cloudflare Worker
 
 - Connect it to your GitHub project
 - Set the environment variables
