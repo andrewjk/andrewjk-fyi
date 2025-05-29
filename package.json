@@ -1,7 +1,7 @@
 {
-  "name": "andrewjk-social",
+  "name": "andrewjk-fyi",
   "version": "0.0.1",
-  "description": "A Redraft site!!",
+  "description": "A Redraft site",
   "type": "module",
   "scripts": {
     "dev": "tb --dev",
@@ -9,7 +9,7 @@
     "preview": "tb --preview",
     "check": "tsc --noEmit",
     "db:list": "wrangler d1 migrations list DB --remote",
-    "db:apply": "wrangler d1 migrations apply DB --remote",
+    "db:push": "wrangler d1 migrations apply DB --remote",
     "tail": "wrangler pages deployment tail"
   },
   "keywords": [],
