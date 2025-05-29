@@ -18,7 +18,7 @@
   "dependencies": {
     "@redraft/adapter-cloudflare": "^0.0.7",
     "@redraft/site": "^0.0.13",
-    "@torpor/adapter-cloudflare": "^0.0.24",
+    "@torpor/adapter-cloudflare": "^0.0.25",
     "@torpor/build": "^0.1.23",
     "dotenv": "^16.5.0"
   },
