@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@redraft/adapter-cloudflare':
-        specifier: ^0.0.9
-        version: 0.0.9(@libsql/client@0.15.8)(@types/node@22.15.29)(esbuild@0.25.5)(rollup@4.41.1)(typescript@5.8.3)
+        specifier: ^0.0.10
+        version: 0.0.10(@libsql/client@0.15.8)(@types/node@22.15.29)(esbuild@0.25.5)(rollup@4.41.1)(typescript@5.8.3)
       '@redraft/site':
-        specifier: ^0.0.14
-        version: 0.0.14(@types/node@22.15.29)(esbuild@0.25.5)(rollup@4.41.1)(typescript@5.8.3)(vite@6.3.5(@types/node@22.15.29))
+        specifier: ^0.0.15
+        version: 0.0.15(@types/node@22.15.29)(esbuild@0.25.5)(rollup@4.41.1)(typescript@5.8.3)(vite@6.3.5(@types/node@22.15.29))
       '@torpor/adapter-cloudflare':
         specifier: ^0.0.26
         version: 0.0.26(@types/node@22.15.29)(esbuild@0.25.5)(rollup@4.41.1)(typescript@5.8.3)
@@ -28,8 +28,8 @@ importers:
         specifier: ^5.8.3
         version: 5.8.3
       wrangler:
-        specifier: ^4.18.0
-        version: 4.18.0
+        specifier: ^4.19.1
+        version: 4.19.1
 
 packages:
 
@@ -566,8 +566,8 @@ packages:
   '@neon-rs/load@0.0.4':
     resolution: {integrity: sha512-kTPhdZyTQxB+2wpiRcFWrDcejc4JI6tkPuS7UZCG4l6Zvc5kU/gGQ/ozvHTh1XR5tS+UlfAfGuPajjzQjCiHCw==}
 
-  '@redraft/adapter-cloudflare@0.0.9':
-    resolution: {integrity: sha512-RfC/xZst7WapujIm9128rIQQlERYZ2fOhu31ElA4Tkr+127WDdRk54QFFxR+LGO1fqKbVZ4sZS8TLvoRf852sQ==}
+  '@redraft/adapter-cloudflare@0.0.10':
+    resolution: {integrity: sha512-H1xr2ALMapAdk03/Wphgp+YjBv6bmEwghtd81IEVf4jgCSy0zy2Q4TwoF/7QZi8PAuYpn0hCeUgcaCYDNDgiNQ==}
 
   '@redraft/adapter-core@0.0.4':
     resolution: {integrity: sha512-Lp+ZyoDz6pjH06U4uo0PYtCFhaxKQ69YviM5TP14kXe5HmyKDzpRlAVGfJVqg0ePawGQ1N/x7Qb7vncwUrRQMA==}
@@ -575,8 +575,8 @@ packages:
   '@redraft/adapter-node@0.0.4':
     resolution: {integrity: sha512-q5UPDeZ5rHwLzh36iK43PEZCKXGfWhz54JtqCTl9GmHrglxp2kIziWCc0t48mP9pHoqhsogVW3uBjRX8mbiapw==}
 
-  '@redraft/site@0.0.14':
-    resolution: {integrity: sha512-58LkvVOPCf2OfxVppbjcKoErHE64mgy4Hx4Z2pYQil0DkzYoZzZgfNXRJso2Wty9+XaVdiiyvFkxS9iga7zOhg==}
+  '@redraft/site@0.0.15':
+    resolution: {integrity: sha512-wNHyoU4uYMO5KxlB4KyTYhQmyk6DQ/FWpcYiW+W70L/qizsox6Drf/pGeHv9HG+ehM7f4hR0253OoeY90L1J4g==}
 
   '@rollup/rollup-android-arm-eabi@4.41.1':
     resolution: {integrity: sha512-NELNvyEWZ6R9QMkiytB4/L4zSEaBC03KIXEghptLGLZWJ6VPrL63ooZQCOnlx36aQPGhzuOMwDerC1Eb2VmrLw==}
@@ -1080,8 +1080,8 @@ packages:
     engines: {node: '>=10.0.0'}
     hasBin: true
 
-  miniflare@4.20250525.0:
-    resolution: {integrity: sha512-F5XRDn9WqxUaHphUT8qwy5WXC/3UwbBRJTdjjP5uwHX82vypxIlHNyHziZnplPLhQa1kbSdIY7wfuP1XJyyYZw==}
+  miniflare@4.20250525.1:
+    resolution: {integrity: sha512-4PJlT5WA+hfclFU5Q7xnpG1G1VGYTXaf/3iu6iKQ8IsbSi9QvPTA2bSZ5goCFxmJXDjV4cxttVxB0Wl1CLuQ0w==}
     engines: {node: '>=18.0.0'}
     hasBin: true
 
@@ -1280,8 +1280,8 @@ packages:
     engines: {node: '>=16'}
     hasBin: true
 
-  wrangler@4.18.0:
-    resolution: {integrity: sha512-/ng0KI9io97SNsBU1rheADBLLTE5Djybgsi4gXuvH1RBKJGpyj1xWvZ2fuWu8vAonit3EiZkwtERTm6kESHP3A==}
+  wrangler@4.19.1:
+    resolution: {integrity: sha512-b+ed2SJKauHgndl4Im1wHE+FeSSlrdlEZNuvpc8q/94k4EmRxRkXnwBAsVWuicBxG3HStFLQPGGlvL8wGKTtHw==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     peerDependencies:
@@ -1656,7 +1656,7 @@ snapshots:
 
   '@neon-rs/load@0.0.4': {}
 
-  '@redraft/adapter-cloudflare@0.0.9(@libsql/client@0.15.8)(@types/node@22.15.29)(esbuild@0.25.5)(rollup@4.41.1)(typescript@5.8.3)':
+  '@redraft/adapter-cloudflare@0.0.10(@libsql/client@0.15.8)(@types/node@22.15.29)(esbuild@0.25.5)(rollup@4.41.1)(typescript@5.8.3)':
     dependencies:
       '@redraft/adapter-core': 0.0.4(@libsql/client@0.15.8)(@types/node@22.15.29)(esbuild@0.25.5)(rollup@4.41.1)(typescript@5.8.3)
       '@torpor/adapter-cloudflare': 0.0.26(@types/node@22.15.29)(esbuild@0.25.5)(rollup@4.41.1)(typescript@5.8.3)
@@ -1819,7 +1819,7 @@ snapshots:
       - webpack
       - yaml
 
-  '@redraft/site@0.0.14(@types/node@22.15.29)(esbuild@0.25.5)(rollup@4.41.1)(typescript@5.8.3)(vite@6.3.5(@types/node@22.15.29))':
+  '@redraft/site@0.0.15(@types/node@22.15.29)(esbuild@0.25.5)(rollup@4.41.1)(typescript@5.8.3)(vite@6.3.5(@types/node@22.15.29))':
     dependencies:
       '@libsql/client': 0.15.8
       '@redraft/adapter-core': 0.0.4(@libsql/client@0.15.8)(@types/node@22.15.29)(esbuild@0.25.5)(rollup@4.41.1)(typescript@5.8.3)
@@ -2430,7 +2430,7 @@ snapshots:
 
   mime@3.0.0: {}
 
-  miniflare@4.20250525.0:
+  miniflare@4.20250525.1:
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       acorn: 8.14.0
@@ -2634,13 +2634,13 @@ snapshots:
       '@cloudflare/workerd-linux-arm64': 1.20250525.0
       '@cloudflare/workerd-windows-64': 1.20250525.0
 
-  wrangler@4.18.0:
+  wrangler@4.19.1:
     dependencies:
       '@cloudflare/kv-asset-handler': 0.4.0
       '@cloudflare/unenv-preset': 2.3.2(unenv@2.0.0-rc.17)(workerd@1.20250525.0)
       blake3-wasm: 2.1.5
       esbuild: 0.25.4
-      miniflare: 4.20250525.0
+      miniflare: 4.20250525.1
       path-to-regexp: 6.3.0
       unenv: 2.0.0-rc.17
       workerd: 1.20250525.0

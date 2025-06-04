@@ -10,20 +10,20 @@
     "check": "tsc --noEmit",
     "db:list": "wrangler d1 migrations list DB --remote",
     "db:push": "wrangler d1 migrations apply DB --remote",
-    "tail": "wrangler pages deployment tail"
+    "tail": "wrangler tail"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@redraft/adapter-cloudflare": "^0.0.9",
-    "@redraft/site": "^0.0.14",
+    "@redraft/adapter-cloudflare": "^0.0.10",
+    "@redraft/site": "^0.0.15",
     "@torpor/adapter-cloudflare": "^0.0.26",
     "@torpor/build": "^0.1.24",
     "dotenv": "^16.5.0"
   },
   "devDependencies": {
     "typescript": "^5.8.3",
-    "wrangler": "^4.18.0"
+    "wrangler": "^4.19.1"
   }
 }
