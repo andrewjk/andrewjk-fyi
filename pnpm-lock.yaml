@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@redraft/adapter-cloudflare':
-        specifier: ^0.0.10
-        version: 0.0.10(@libsql/client@0.15.8)(@types/node@22.15.29)(esbuild@0.25.5)(rollup@4.41.1)(typescript@5.8.3)
+        specifier: ^0.0.11
+        version: 0.0.11(@libsql/client@0.15.8)(@types/node@22.15.29)(esbuild@0.25.5)(rollup@4.41.1)(typescript@5.8.3)
       '@redraft/site':
         specifier: ^0.0.15
         version: 0.0.15(@types/node@22.15.29)(esbuild@0.25.5)(rollup@4.41.1)(typescript@5.8.3)(vite@6.3.5(@types/node@22.15.29))
@@ -566,8 +566,8 @@ packages:
   '@neon-rs/load@0.0.4':
     resolution: {integrity: sha512-kTPhdZyTQxB+2wpiRcFWrDcejc4JI6tkPuS7UZCG4l6Zvc5kU/gGQ/ozvHTh1XR5tS+UlfAfGuPajjzQjCiHCw==}
 
-  '@redraft/adapter-cloudflare@0.0.10':
-    resolution: {integrity: sha512-H1xr2ALMapAdk03/Wphgp+YjBv6bmEwghtd81IEVf4jgCSy0zy2Q4TwoF/7QZi8PAuYpn0hCeUgcaCYDNDgiNQ==}
+  '@redraft/adapter-cloudflare@0.0.11':
+    resolution: {integrity: sha512-driaGt5s8jmTu8O82khqREC8arBGZ21I7/6mkVpkGFbQl0sNQSjv4Gmw11AloqdYCA6HOPWI6pzsBHLDozZeFQ==}
 
   '@redraft/adapter-core@0.0.4':
     resolution: {integrity: sha512-Lp+ZyoDz6pjH06U4uo0PYtCFhaxKQ69YviM5TP14kXe5HmyKDzpRlAVGfJVqg0ePawGQ1N/x7Qb7vncwUrRQMA==}
@@ -1656,7 +1656,7 @@ snapshots:
 
   '@neon-rs/load@0.0.4': {}
 
-  '@redraft/adapter-cloudflare@0.0.10(@libsql/client@0.15.8)(@types/node@22.15.29)(esbuild@0.25.5)(rollup@4.41.1)(typescript@5.8.3)':
+  '@redraft/adapter-cloudflare@0.0.11(@libsql/client@0.15.8)(@types/node@22.15.29)(esbuild@0.25.5)(rollup@4.41.1)(typescript@5.8.3)':
     dependencies:
       '@redraft/adapter-core': 0.0.4(@libsql/client@0.15.8)(@types/node@22.15.29)(esbuild@0.25.5)(rollup@4.41.1)(typescript@5.8.3)
       '@torpor/adapter-cloudflare': 0.0.26(@types/node@22.15.29)(esbuild@0.25.5)(rollup@4.41.1)(typescript@5.8.3)
