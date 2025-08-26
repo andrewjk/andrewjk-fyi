@@ -24,5 +24,9 @@
       "binding": "STORAGE",
       "bucket_name": "andrewjk"
     }
-  ]
+  ],
+
+  "images": {
+    "binding": "IMAGES"
+  }
 }

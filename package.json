@@ -16,14 +16,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@redraft/adapter-cloudflare": "^0.0.12",
-    "@redraft/site": "^0.1.0",
-    "@torpor/adapter-cloudflare": "^0.0.33",
-    "@torpor/build": "^0.1.31",
-    "dotenv": "^16.5.0"
+    "@redraft/adapter-cloudflare": "^0.0.15",
+    "@redraft/site": "^0.1.2",
+    "@torpor/adapter-cloudflare": "^0.1.0",
+    "@torpor/build": "^0.2.0",
+    "dotenv": "^17.2.1"
   },
   "devDependencies": {
-    "typescript": "^5.8.3",
-    "wrangler": "^4.20.3"
+    "typescript": "^5.9.2",
+    "wrangler": "^4.32.0"
   }
 }
