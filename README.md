@@ -27,7 +27,7 @@ cd my-social
 npm install
 ```
 
-Replace any values in triangle brackets in the `wrangler.toml` file.
+Replace any values in triangle brackets in the `wrangler.jsonc` file.
 
 Optionally customise css, icon and robots.txt in `/src/assets`.
 
@@ -40,7 +40,7 @@ Once you are happy, upload it to your GitHub account.
   - Set `USERNAME` and `PASSWORD`, which will be used to setup your account
   - Set `SITE_LOCATION` to the URL which will be shared with others
   - Set `JWT_SECRET` to a random passphrase for encrypting your user token
-- Run `npm run db:apply` to create the database
+- Run `npm run db:push` to create the database
 
 ### Set up your account
 
