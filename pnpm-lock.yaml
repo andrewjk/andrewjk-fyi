@@ -12,8 +12,8 @@ importers:
         specifier: ^0.1.4
         version: 0.1.4(@libsql/client@0.15.15)(@types/node@24.10.1)(esbuild@0.25.12)(rollup@4.53.2)(typescript@5.9.3)
       '@redraft/site':
-        specifier: ^0.2.3
-        version: 0.2.3(@types/node@24.10.1)(esbuild@0.25.12)(rollup@4.53.2)(typescript@5.9.3)(vite@7.2.2(@types/node@24.10.1))
+        specifier: ^0.2.4
+        version: 0.2.4(@types/node@24.10.1)(esbuild@0.25.12)(rollup@4.53.2)(typescript@5.9.3)(vite@7.2.2(@types/node@24.10.1))
       '@torpor/adapter-cloudflare':
         specifier: ^0.2.3
         version: 0.2.3(@types/node@24.10.1)(esbuild@0.25.12)(rollup@4.53.2)(typescript@5.9.3)
@@ -595,8 +595,8 @@ packages:
   '@redraft/adapter-node@0.1.1':
     resolution: {integrity: sha512-GRSCVlOr8mfSJv5CDtoysfHn6/ASDBPJGKeS5Q60otbSl9XsHEPwIeM8aO5gJKiolgNV/Iap7RXjWjxxiWXoRg==}
 
-  '@redraft/site@0.2.3':
-    resolution: {integrity: sha512-eMJdIDWuSbF6DcyUgbdVGLKoA/m4UNLJH8S+dWAKj5EHAAXvLKs9GPAdkuM/dieMEbyHXQ/oUm+acVP7DitUig==}
+  '@redraft/site@0.2.4':
+    resolution: {integrity: sha512-VypczfTq6qWztetAAq0v496NG/aX6qaMZ0ARbMDyNyFNwe7ac6fF/WTA9y31HJxCKftSMFl9NIkAWqh+iuzV9Q==}
 
   '@rollup/rollup-android-arm-eabi@4.53.2':
     resolution: {integrity: sha512-yDPzwsgiFO26RJA4nZo8I+xqzh7sJTZIWQOxn+/XOdPE31lAvLIYCKqjV+lNH/vxE2L2iH3plKxDCRK6i+CwhA==}
@@ -1863,7 +1863,7 @@ snapshots:
       - webpack
       - yaml
 
-  '@redraft/site@0.2.3(@types/node@24.10.1)(esbuild@0.25.12)(rollup@4.53.2)(typescript@5.9.3)(vite@7.2.2(@types/node@24.10.1))':
+  '@redraft/site@0.2.4(@types/node@24.10.1)(esbuild@0.25.12)(rollup@4.53.2)(typescript@5.9.3)(vite@7.2.2(@types/node@24.10.1))':
     dependencies:
       '@libsql/client': 0.15.15
       '@redraft/adapter-core': 0.1.1(@libsql/client@0.15.15)(@types/node@24.10.1)(esbuild@0.25.12)(rollup@4.53.2)(typescript@5.9.3)
