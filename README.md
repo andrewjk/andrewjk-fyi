@@ -40,6 +40,7 @@ Once you are happy, upload it to your GitHub account.
   - Set `USERNAME` and `PASSWORD`, which will be used to setup your account
   - Set `SITE_LOCATION` to the URL which will be shared with others
   - Set `JWT_SECRET` to a random passphrase for encrypting your user token
+  - Set `JWT_SECRET_2` to a random passphrase for encrypting the user tokens you share with contacts
 - Run `npm run db:push` to create the database
 
 ### Set up your account
