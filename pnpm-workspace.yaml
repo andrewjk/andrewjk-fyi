@@ -3,7 +3,10 @@ allowBuilds:
   esbuild: true
   workerd: true
 minimumReleaseAgeExclude:
-  - '@redraft/adapter-cloudflare@0.1.7'
+  - '@redraft/adapter-cloudflare@0.1.8'
   - '@redraft/adapter-core@0.1.4'
   - '@redraft/adapter-node@0.1.4'
   - '@redraft/site@0.3.3'
+  - '@torpor/adapter-cloudflare@1.0.16'
+overrides:
+  vite@*: npm:@voidzero-dev/vite-plus-core@1.1.0
