@@ -18,12 +18,12 @@
   "dependencies": {
     "@redraft/adapter-cloudflare": "^0.1.6",
     "@redraft/site": "^0.3.2",
-    "@torpor/adapter-cloudflare": "^0.2.3",
-    "@torpor/build": "^0.4.14",
-    "dotenv": "^17.2.3"
+    "@torpor/adapter-cloudflare": "^1.0.15",
+    "@torpor/build": "^1.6.1",
+    "dotenv": "^18.0.7"
   },
   "devDependencies": {
-    "typescript": "^5.9.3",
-    "wrangler": "^4.54.0"
+    "typescript": "^7.0.2",
+    "wrangler": "^4.149.0"
   }
 }
