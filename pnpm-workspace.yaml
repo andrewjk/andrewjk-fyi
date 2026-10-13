@@ -1,0 +1,8 @@
+allowBuilds:
+  esbuild: true
+  workerd: true
+minimumReleaseAgeExclude:
+  - '@redraft/adapter-cloudflare@0.1.7'
+  - '@redraft/adapter-core@0.1.4'
+  - '@redraft/adapter-node@0.1.4'
+  - '@redraft/site@0.3.3'
